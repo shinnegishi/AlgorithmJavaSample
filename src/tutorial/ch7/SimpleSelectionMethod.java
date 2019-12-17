@@ -4,6 +4,7 @@ import misc_and_utils.CommonStuff;
 public class SimpleSelectionMethod implements Runnable{
 	private static int[] numarr = {12,13,11,14,10};
 	public void run() {
+		System.out.println("第７章 P.151 単純選択法のアルゴリズム");
 		System.out.println("array["+String.valueOf(numarr.length)+"]<-{"+CommonStuff.joinIntArr(numarr)+"}");
 		int i;
 		int k;

@@ -6,6 +6,7 @@ import misc_and_utils.CommonStuff;
 public class LinearSearch implements Runnable{
 	private static int[] numarr = {4,2,3,5,1};
 	public void run() {
+		System.out.println("‘æ‚SÍ P.99- üŒ`’Tõ–@‚ÌƒAƒ‹ƒSƒŠƒYƒ€");
 		System.out.println("array["+String.valueOf(numarr.length)+"]<-{"+CommonStuff.joinIntArr(numarr)+"}");
 		int i = 0;
 		while(i < 5) {

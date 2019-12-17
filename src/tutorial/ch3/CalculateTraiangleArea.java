@@ -8,7 +8,6 @@ public class CalculateTraiangleArea implements Runnable{
 	private static Integer area;
 	Scanner myObj = new Scanner(System.in);
 	
-
 	public void run() {
 		System.out.println("‘æ3Í P.66 OŠpŒ`‚Ì–ÊÏ‚ğŒvZ‚·‚éƒAƒ‹ƒSƒŠƒYƒ€");
 		Scanner myObj = new Scanner(System.in);

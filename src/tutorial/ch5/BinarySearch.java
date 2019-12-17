@@ -4,6 +4,7 @@ import misc_and_utils.CommonStuff;
 public class BinarySearch implements Runnable{
 	private static int[] numarr = {11,13,17,19,23,29,31};
 	public void run() {
+		System.out.println("‘æ‚TÍ P.115 “ñ•ª’Tõ–@‚ÌƒAƒ‹ƒSƒŠƒYƒ€");
 		System.out.println("array["+String.valueOf(numarr.length)+"]<-{"+CommonStuff.joinIntArr(numarr)+"}");
 		int head = 0;
 		int tail = 6;

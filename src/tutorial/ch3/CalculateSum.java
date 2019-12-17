@@ -4,7 +4,7 @@ import misc_and_utils.CommonStuff;
 public class CalculateSum implements Runnable{
 	private static int[] numarr = {12,13,11,14,10};
 	public void run() {
-
+		System.out.println("第3章P.79 合計を計算するアルゴリズム");
 		System.out.println("ARRAY["+String.valueOf(numarr.length)+"]<-{"+CommonStuff.joinIntArr(numarr)+"}");
 		int sum = 0;
 		for(int i = 0; i < numarr.length; i++) {
